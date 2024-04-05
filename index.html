@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    	<meta charset="UTF-8" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<title>Juliana Abreu</title>
+		<link href="imagens/logo.png" rel="icon" type="image/x-icon">
+
+		<!-- Font Awesome CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- Swiper CSS-->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<!-- CSS-->
+    	<link rel="stylesheet" href="css/style.css">
+  	</head>
+  	<body>
+    	<header>
+      		<nav class="barraSup">
+        		<div class="logo">
+          			<a href="#home">${JU}</a>
+        		</div>
+				<div class="menuMobile">
+					<i class="fa fa-bars fa-2x" onclick="openMenu()"></i>
+				</div>
+        		<div class="menu">
+          			<ul>
+            			<li><a href="#home">Home</a></li>
+            			<li><a href="#about">Sobre</a></li>
+            			<li><a href="#skills">Habilidades</a></li>
+            			<li><a href="#projects">Projetos</a></li>
+            			<li><a href="#contact">Contato</a></li>
+          			</ul>
+        		</div>
+      		</nav>
+    	</header>
+    	<main id="content">
+      		<section id="home">
+        		<div class="contentHome">
+          			<p>Olá, eu sou</p>
+          			<h1>Juliana Abreu.</h1>
+         	 		<p style="font-style: italic;">Desenvolvedora Back-End</p>
+          			<div class="botoesHome">
+            			<a href="https://www.linkedin.com/in/juliana-abreu-247842214/" >
+              				<div class="botaoLinkedin">
+                				<img src="/imagens/linkedinBlack.png">
+                				<p>Linkedin</p>
+              				</div>
+            			</a>
+            			<a href="https://github.com/juwtf">
+              				<div class="botaoGithub">
+                				<img src="imagens/githubBlack.png">
+                				<p>Github</p>
+              				</div>
+            			</a>
+          			</div>
+        		</div>
+        		<div class="imagemHome"></div>
+      		</section>
+      		<section id="about">
+				<div class="styleAbout"></div>
+				<article style="display: flex; margin: 75px 0 0 0;">
+        			<div class="containerImgAbout">
+            			<div class="boxImgAbout">
+            				<div class="imgAbout">
+                				<img src="imagens/eu.png">
+            				</div>
+            			</div>
+        			</div>
+				
+        			<div class="txtAbout">
+                		<h2>Sobre Mim</h2>
+                		<p style="color: #71f26d86; font-size: 18px;" >Rio de Janeiro, RJ</p>
+                		<p>Olá! Sou uma desenvolvedora, atualmente, focada em backend e estou buscando uma oportunidade de emprego para me inserir no mercado de trabalho.<br><br>Apaixonada por informática desde a infância, decidi cursar o ensino médio técnico em informática. Onde realizei projetos com as primeiras linguagens na qual tive contato. Hoje curso uma faculdade de Ciência da Computação e tenho contato com mais linguagens. No momento, desejo, além me aprimorar nas que conheço, conhecer novas linguagens.<br><br>Apesar de no momento estar focada na área Backend, pretendo, no futuro, me aprofundar na área de desenvolvimento mobile.
+					</p>
+					</div>
+        		</article>
+      		</section>
+      		<section id="skills">
+				<h2 class="txtSkills">Habilidades</h2>
+				<div class="slideContainer swiper">
+					<div class="slideContent">
+						<div class="containerSkills swiper-wrapper">
+							<div class="card swiper-slide">
+								<div class="contentCard">
+									<img src="imagens/java.png">
+									<p>Java é uma linguagem de programação orientada a objetos que foi desenvolvida na década de 90.<br><br>Meu Projeto Final do ensino médio foi realizado usando essa linguagem.</p>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="contentCard">
+									<img src="imagens/html5.png">
+									<p>HTML5 é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.<br><br>Já realizei pequenos projetos no ensino médio utilizando essa linguagem.</p>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="contentCard">
+									<img src="imagens/css3.png">
+									<p>CSS3 é a terceira versão da linguagem de marcação CSS, ou Cascading Style Sheets.<br><br>Já realizei pequenos projetos no ensino médio utilizando essa linguagem.</p>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="contentCard">
+									<img src="imagens/mysql.png">
+									<p>MySql é um Sistema de gerenciamento de banco de dados, que usa a linguagem SQL como interface<br><br>Meu primeiro contato com SQL foi no ensino médio</p>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="contentCard">
+									<img src="imagens/c++.png">
+									<p>C++ é uma linguagem de programação de nível médio, baseada na linguagem C. Desenvolvida na década de 80.<br><br>Meu primeiro contato com esssa linguagem foi na faculdade.</p>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="contentCard">
+									<img src="imagens/javascript.png">
+									<p>JavaScript é uma linguagem de programação que permite a implementação de itens de alto nível de complexidade em páginas web.<br><br>Meu primeiro contato com esssa linguagem foi na faculdade.</p>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="contentCard">
+									<img src="imagens/python.png">
+									<p>Python é uma linguagem de programação multiplataforma que permite desenvolver aplicações para games, desktops, web e dispositivos móveis.<br><br>Meu primeiro contato com esssa linguagem foi na faculdade.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+    				<div class="swiper-button-prev"></div>
+    				<div class="swiper-scrollbar"></div>
+    				<div class="swiper-pagination"></div>
+				</div>
+				
+      		</section>
+      		<section id="projects">
+        		<h1>Projetos</h1>
+      		</section>
+      		<section id="contact">
+        		<h1>Contato</h1>
+      		</section>
+    	</main>
+
+		<!-- Vanilla JS-->
+		<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+		<script type="text/javascript">
+			VanillaTilt.init(document.querySelectorAll(".card"), {
+				max: 25,
+				speed: 400,
+				glare: true,
+				"max-glare": 0.4
+			});
+		</script>
+		<!-- Swiper JS -->
+		<script src="js/swiper-bundle.min.js"></script>
+
+		<!-- Javascript section Habilidades-->
+		<script src="js/skills.js"></script>
+
+		<!--Javascript Menu Mobile-->
+		<script src="js/menu.js"></script>
+
+
+  	</body>
+</html>
